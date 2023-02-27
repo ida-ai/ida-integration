@@ -15,16 +15,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#créer le script bash ">créer le script bash </a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#test">Test</a></li>
+    <li><a href="#Planifier l'exécution du script">Planifier l'exécution du script</a></li>
   </ol>
 </details>
 
@@ -46,7 +41,7 @@ L'interface web est la suivante et vous pouvez toujours y accéder pour vérifie
 ## Getting Started
 
 
-### 1- créer le script bash 
+### Créer le script bash 
 
 
   ```sh
