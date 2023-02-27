@@ -39,7 +39,7 @@ L'interface web est la suivante et vous pouvez toujours y accéder pour vérifie
 * [!sftp-go][https://github.com/drakkan/sftpgo/blob/main/docs/howto/getting-started.md#creating-users]
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Etapes
 installer except : 
 
 **sur macOS : **
@@ -196,3 +196,4 @@ En clair il faut aouter le droit au cron d'accèder au fichier, ce qui se fait v
 Vous pouvez le modifier et le mettre à l'heure que vous voulez, une fois cette heure passée, faire mail dans le terminal pour voir le log. 
 
 --> autres questions ? Contactez-moi: mathieu.grosso@ai-ida.com
+
