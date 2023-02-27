@@ -38,7 +38,7 @@ L'interface web est la suivante et vous pouvez toujours y accéder pour vérifie
 * [!sftp-go][https://github.com/drakkan/sftpgo/blob/main/docs/howto/getting-started.md#creating-users]
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Etapes
 
 
 ### Créer le script bash 
