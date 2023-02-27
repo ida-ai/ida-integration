@@ -27,14 +27,15 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Description du process
 
-Dans ce tutoriel, nous allons créer un script Bash qui enverra un fichier à un serveur SFTPGo hébergé dans le Cloud Storage de Google tous les jours à une heure précise. Nous utiliserons le service de planification de tâches cron pour exécuter le script chaque jour.
+Dans ce tutoriel, nous allons créer un script Bash qui enverra un fichier à un serveur SFTPGo hébergé dans le Cloud Storage de Google tous les jours à une heure précise. 
+Nous utiliserons le service de planification de tâches cron pour exécuter le script chaque jour.
 
-L'interface web est la suivante et vous pouvez toujours y accéder pour vérifier que tout c'est bien passé : 
+L'interface web est la suivante et vous pouvez toujours y accéder pour vérifier que tout s'est bien passé : 
 **http://35.209.70.131:8080/web/client/login**
 
-### Built With
+### Documentation générale
 
 * [!sftp-go][https://github.com/drakkan/sftpgo/blob/main/docs/howto/getting-started.md#creating-users]
 
@@ -178,22 +179,25 @@ mail
 ```
 dans le terminal
 
-Votre terminal envoie ses messages de sortie et d'erreur par mail après avoir exécuté une tâche cron. Vérifions si la tâche cron a fonctionné.
-Vous devez appuyer sur enter pour lire les messages, puis sur q et enter pour quitter. Utilisez j pour voir les lignes suivantes. Vous devez vérifier que le courrier ne contient pas d'erreurs. En cas d'erreurs, vous devez vous occuper du problème.
+Votre terminal envoie ses messages de sortie et d'erreur par mail après avoir exécuté une tâche cron. 
+Vérifions si la tâche cron a fonctionné
+Vous devez appuyer sur enter pour lire les messages, puis sur q et enter pour quitter. Utilisez j pour voir les lignes suivantes. 
+Vous devez vérifier que le courrier ne contient pas d'erreurs. 
+En cas d'erreurs, reportez-vous à la documentation ci-dessous.
 
 
 
 ## Résolution de problème :
 
---> le cron ne marche pas ? 
+--> Le cron ne marche pas ? 
 Si vous êtes sur mac, il vous manque surement une autorisation: 
 voilà un tutoriel assez clair -->
 https://itprohelper.com/how-to-fix-cron-operation-not-permitted-error-in-macos/
-En clair il faut aouter le droit au cron d'accèder au fichier, ce qui se fait via l'onglet securité dnas préferences systèmes. Mais je vous laisse lire le tutoriel. 
+En clair il faut ajouter le droit au cron d'accèder au fichier, ce qui se fait via l'onglet securité dans préferences systèmes. Mais je vous laisse lire le tutoriel. 
 
 
---> comment savoir si le cron a marché ? 
+--> Comment savoir si le cron a marché ? 
 Vous pouvez le modifier et le mettre à l'heure que vous voulez, une fois cette heure passée, faire mail dans le terminal pour voir le log. 
 
---> autres questions ? Contactez-moi: mathieu.grosso@ai-ida.com
+--> Autres questions ? Contactez-moi: mathieu.grosso@ai-ida.com
 
