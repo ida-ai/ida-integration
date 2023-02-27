@@ -28,9 +28,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Description du process
 
-Dans ce tutoriel, nous allons créer un script Bash qui enverra un fichier à un serveur SFTPGo hébergé dans le Cloud Storage de Google tous les jours à une heure précise. Nous utiliserons le service de planification de tâches cron pour exécuter le script chaque jour.
+Dans ce tutoriel, nous allons créer un script Bash qui enverra un fichier à un serveur SFTPGo hébergé dans le Cloud Storage de Google tous les jours à une heure précise. 
+Nous utiliserons le service de planification de tâches cron pour exécuter le script chaque jour de manière automatique.
 
-L'interface web est la suivante et vous pouvez toujours y accéder pour vérifier que tout c'est bien passé : 
+L'interface web est la suivante et vous pouvez toujours y accéder pour vérifier que tout s'est bien passé : 
 **http://35.209.70.131:8080/web/client/login**
 
 ### Built With
